@@ -1,0 +1,10 @@
+awslv2flower/Review.class
+awslv2flower/ReviewRepository.class
+awslv2flower/ReviewController.class
+awslv2flower/ReviewWrited.class
+awslv2flower/AbstractEvent.class
+awslv2flower/AbstractEvent$1.class
+awslv2flower/ReviewRequested.class
+awslv2flower/PolicyHandler.class
+awslv2flower/ReviewApplication.class
+awslv2flower/config/kafka/KafkaProcessor.class
