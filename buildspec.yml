@@ -80,6 +80,11 @@ phases:
                     - /bin/sh
                     - -c
                     - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 90
+                    resources:
+                      limits:
+                        cpu: 500m
+                      requests:
+                        cpu: 200m  
                     readinessProbe:
                       httpGet:
                         path: /actuator/health
